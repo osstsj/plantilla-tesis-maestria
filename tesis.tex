@@ -3,10 +3,32 @@
 
 \documentclass{tsj-thesis}
 
-%% Quita la siguiente linea es solo para hacer texto aleatorio.
+%% Quita la siguiente linea es solo para
+%% hacer texto aleatorio.
 \usepackage{lipsum}
+%%%%%%%%%%%%%%%%%%%
+
+\title{Titulo de la Tesis}
+\author{Nombre del autor}
+\date{dia de mes de año}
+
+\grado{Maestro en Sistemas Computacionales}
+\director{Nombre del asesor}
+\codirector{Nombre del codirector}
 
 \begin{document}
+
+\maketitle
+
+\frontmatter
+
+\include{preliminar/dedicatoria}
+\include{preliminar/resumen}
+%% Quitar si no es necesario en ingles
+\include{preliminar/abstract}
+\include{preliminar/agradecimientos}
+
+\mainmatter
 
 \include{capitulo1/introduccion}
 \include{capitulo2/marcoteorico}
