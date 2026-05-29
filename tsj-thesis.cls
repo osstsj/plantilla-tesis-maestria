@@ -33,21 +33,22 @@
 
 \renewcommand{\maketitle}{
 \begin{titlepage}
-\pagenumbering{alph}\thispagestyle{empty}\noindent
-\includegraphics[width=\textwidth]{img/cabecera.pdf}
-\textcolor{orange!50!black}{
-\begin{center}
-\rule{\textwidth}{1pt}\\[-0.6\baselineskip]
-\rule{\textwidth}{3pt}
-\end{center}
-\begin{minipage}{0.1\textwidth}
-\rule{1pt}{0.8\textheight}
-\rule{3pt}{0.8\textheight}\quad
-\rule{1pt}{0.8\textheight}
-\rule{3pt}{0.8\textheight}\quad
-\rule{1pt}{0.8\textheight}
-\rule{3pt}{0.8\textheight}
-\end{minipage}}
+%\pagenumbering{alph}\thispagestyle{empty}\noindent
+%\includegraphics[width=\textwidth]{img/cabecera.pdf}
+%\textcolor{orange!50!black}{
+%\begin{center}
+%\rule{\textwidth}{1pt}\\[-0.6\baselineskip]
+%\rule{\textwidth}{3pt}
+%\end{center}
+%\begin{minipage}{0.1\textwidth}
+%\rule{1pt}{0.8\textheight}
+%\rule{3pt}{0.8\textheight}\quad
+%\rule{1pt}{0.8\textheight}
+%\rule{3pt}{0.8\textheight}\quad
+%\rule{1pt}{0.8\textheight}
+%\rule{3pt}{0.8\textheight}
+%\end{minipage}}
+
 \begin{minipage}{0.9\textwidth}
 \begin{center}
 \null\bigskip\bigskip\bigskip
@@ -82,7 +83,12 @@ Zapopan, Jalisco, México \\[0.5\baselineskip] \thedate
 
 \newenvironment{dedicatoria}
 {\cleardoublepage\null\vfill\thispagestyle{empty}}
-{\vfill\vfill\null}
+{\vfill\null}
+
+\newenvironment{agradecimientos}
+{\cleardoublepage\null\vfill\thispagestyle{empty}
+\begin{center}\textbf{Agradecimientos}\end{center}}
+{\vfill\null}
 
 % page numbering %
 \pagenumbering{Roman}
