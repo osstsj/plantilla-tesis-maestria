@@ -7,6 +7,8 @@
 %% hacer texto aleatorio.
 \usepackage{lipsum}
 %%%%%%%%%%%%%%%%%%%
+\usepackage{biblatex}
+\addbibresource{referencias.bib}
 
 \title{Titulo de la Tesis}
 \author{Nombre del autor}
@@ -39,5 +41,9 @@
 \include{capitulo3/propuesta}
 \include{capitulo4/resultados}
 \include{capitulo5/conclusion}
+
+\backmatter
+
+\printbibliography
 
 \end{document}
