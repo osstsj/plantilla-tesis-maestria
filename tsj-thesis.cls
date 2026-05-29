@@ -33,7 +33,7 @@
 
 \renewcommand{\maketitle}{
 \begin{titlepage}
-%\pagenumbering{alph}\thispagestyle{empty}\noindent
+\pagenumbering{alph}\thispagestyle{empty}\noindent
 %\includegraphics[width=\textwidth]{img/cabecera.pdf}
 %\textcolor{orange!50!black}{
 %\begin{center}
