@@ -26,6 +26,13 @@
 \RequirePackage{inputenc}
 \RequirePackage{titling}
 \RequirePackage{xcolor}
+\RequirePackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,   % True replaces the default ugly boxes around links with colored text
+    linkcolor=black,    % Sets the color for internal document links (TOC, figures, etc.)
+    linktoc=all        % Makes both the section text and the page number clickable
+}
 
 \newcommand{\grado}[1]{\newcommand{\thegrado}{#1}}
 \newcommand{\director}[1]{\newcommand{\thedirector}{#1}}
